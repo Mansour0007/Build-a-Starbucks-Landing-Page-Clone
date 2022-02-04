@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Starbucks</title>
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img
+              src="/images/Starbucks_Corporation_Logo_2011.svg"
+              alt="starbucks"
+            />
+          </a>
+        </div>
+
+        <ul class="navbar-nav-left">
+          <li>
+            <a href="">Menu</a>
+          </li>
+          <li>
+            <a href="">REWARDS</a>
+          </li>
+          <li>
+            <a href="">Gift cards</a>
+          </li>
+        </ul>
+
+        <ul class="navbar-nav-right">
+          <li>
+            <a href="#">
+              <img src="/images/marker.png" alt="marker" />
+              <span>Find a store</span>
+            </a>
+          </li>
+          <li><button class="btn btn-dark-outline">sing in</button></li>
+          <li><button class="btn btn-dark">Join now</button></li>
+        </ul>
+
+        <!-- Hamburger Menu -->
+        <button type="button" class="hamburger" id="menu-btn">
+          <span class="hamburger-top"></span>
+          <span class="hamburger-middle"></span>
+          <span class="hamburger-bottom"></span>
+        </button>
+      </div>
+    </nav>
+    <!-- Mobile Menu -->
+    <div class="mobile-menu hidden" id="menu">
+      <ul>
+        <li>
+          <a href="">Menu</a>
+        </li>
+        <li>
+          <a href="">REWARDS</a>
+        </li>
+        <li>
+          <a href="">Gift cards</a>
+        </li>
+      </ul>
+      <div class="mobile-menu-bottom">
+        <button class="btn btn-dark-outline">Sign in</button>
+        <button class="btn btn-dark">Join now</button>
+        <div>
+          <a href="#">
+            <img src="/images/marker.png" alt="marker" />
+            <span>Find a store</span>
+          </a>
+        </div>
+      </div>
+    </div>
+    <!-- Mobile Menu -->
+
+    <!-- Box A-->
+    <!-- (all of this for explaining the class )this long class means all sections gonna have the class box but every section
+    gonna have a uniq class like box-a which means the first box
+    and bg-primary for background and text-center its for all the text in all sections
+    py-md means padding top and bottom and md fpr medium(y-axis)-->
+    <section class="box box-a bg-primary text-center py-md">
+      <div class="box-inner">
+        <h2 class="text-xl">JINGLE ALL THE WAY TO FREE FAVORITES</h2>
+        <p class="text-md">
+          Join Starbucks® Rewards for delicious deals & exclusive offers.
+          <a href="#">Learn more</a>
+        </p>
+      </div>
+    </section>
+    <!--End of Box A-->
+
+    <!--start of Box B-->
+    <section class="box box-b bg-secondary grid-col-2">
+      <img src="/images/imageb.jpg" alt="deink" />
+      <div class="box-text">
+        <h2 class="text-xl">CHILL AND BE MERRY</h2>
+        <p class="text-md">
+          Our Irish Cream Cold Brew is dressed up for the holidays with sweet
+          cream cold foam and a strike of cocoa.
+        </p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+    <!--End of Box B-->
+
+    <!--start of Box C-->
+    <section class="box box-b bg-secondary grid-col-2 grid-reversed">
+      <img src="/images/imagec.webp" alt="cake" />
+      <div class="box-text">
+        <h2 class="text-xl">MERRY MOMENT</h2>
+        <p class="text-md">
+          Treat yourself to a festive Sugar Plum Cheese Danish with a nicely
+          spiced sugar-plum spread.
+        </p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+    <!--End of Box C-->
+
+    <!--start of Box D-->
+    <section class="box box-b bg-primary grid-col-2">
+      <img src="/images/imaged.png" alt="smothy" />
+      <div class="box-text">
+        <h2 class="text-xl">MINTY, CHOCOLATY JOY</h2>
+        <p class="text-md">
+          Our handcrafted Peppermint Mocha is like a winter wonderland of
+          flavors.
+        </p>
+        <a href="#" class="btn btn-light-outline">Order Now</a>
+      </div>
+    </section>
+    <!--End of Box D-->
+
+    <!--start of Box E-->
+    <section class="box box-b bg-secondary grid-col-2 grid-reversed">
+      <img src="/images/imagee.jpg" alt="person" />
+      <div class="box-text">
+        <h2 class="text-md">Fighting hunger this holiday</h2>
+        <p class="text-sm">
+          Hunger is affecting millions of people across America this holiday
+          season. Join us in our commitment to hunger relief and help feed
+          neighbors in need.
+        </p>
+        <a href="#" class="btn btn-light-outline">Get involved</a>
+      </div>
+    </section>
+    <!--End of Box E-->
+
+    <!-- Start of Box F-->
+    <section class="box box-f bg-extra grid-col-2">
+      <div>
+        <img src="/images/card.webp" alt="person" />
+      </div>
+
+      <div class="box-text">
+        <h2 class="text-md">Earning 4,500 Bonus Stars is Super Starifying</h2>
+        <p class="text-sm">
+          Earn more Stars and even more Rewards with a
+          <span>$0 intro annual fee for your first year</span> with the
+          Starbucks® Rewards Visa® Card. Plus your Stars won’t expire – an
+          exclusive Starbucks benefit for cardmembers. Now that’s Super
+          Starifying.
+        </p>
+        <a href="#" class="btn btn-dark-outline">learn more</a>
+      </div>
+    </section>
+    <!-- End of Box F -->
+
+    <div class="divider"></div>
+
+    <footer class="footer">
+      <div class="footer-container">
+        <div class="social">
+          <a href="https://spotify.com" target="_blank">
+            <img src="/images/social-spotify.svg" alt="spotify" />
+          </a>
+          <a href="https://facebook.com" target="_blank">
+            <img src="/images/social-facebook.svg" alt="facebook" />
+          </a>
+          <a href="https://pinterest.com" target="_blank">
+            <img src="/images/social-pinterest.svg" alt="pinterest" />
+          </a>
+          <a href="https://instagram.com" target="_blank">
+            <img src="/images/social-instagram.svg" alt="instagram" />
+          </a>
+          <a href="https://youtube.com" target="_blank">
+            <img src="/images/social-youtube.svg" alt="youtube" />
+          </a>
+          <a href="https://twitter.com" target="_blank">
+            <img src="/images/social-twitter.svg" alt="twitter" />
+          </a>
+        </div>
+        <p>© 2021 Starbucks Coffee Company. All rights reserved.</p>
+      </div>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
